@@ -1,0 +1,95 @@
+// Path: android/app/build.gradle
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"
+    id "com.chaquo.python"
+}
+
+def localProperties = new Properties()
+def localPropertiesFile = rootProject.file('local.properties')
+if (localPropertiesFile.exists()) {
+    localPropertiesFile.withReader('UTF-8') { reader ->
+        localProperties.load(reader)
+    }
+}
+
+def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
+if (flutterVersionCode == null) {
+    flutterVersionCode = '1'
+}
+
+def flutterVersionName = localProperties.getProperty('flutter.versionName')
+if (flutterVersionName == null) {
+    flutterVersionName = '1.0'
+}
+
+android {
+    namespace "com.example.mt5_clone"
+    compileSdk 36
+    ndkVersion "28.2.13676358"
+    
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+
+    defaultConfig {
+        applicationId "com.example.mt5_clone"
+        minSdk 24
+        targetSdk 34
+        versionCode flutterVersionCode.toInteger()
+        versionName flutterVersionName
+        multiDexEnabled true
+
+        ndk {
+            abiFilters "armeabi-v7a", "arm64-v8a", "x86", "x86_64"
+        }
+
+        python {
+            version "3.11"
+            pip {
+                install "numpy"
+                install "pandas"
+                install "pandas-ta"
+                install "requests"
+                install "pydantic"
+                install "loguru"
+                install "orjson"
+                install "scipy"
+                install "python-dateutil"
+                install "pytz"
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.debug
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            buildConfigField "String", "OANDA_REST_URL", "\"https://api-fxtrade.oanda.com/v3\""
+            buildConfigField "String", "OANDA_STREAM_URL", "\"https://stream-fxtrade.oanda.com/v3\""
+        }
+        debug {
+            buildConfigField "String", "OANDA_REST_URL", "\"https://api-fxpractice.oanda.com/v3\""
+            buildConfigField "String", "OANDA_STREAM_URL", "\"https://stream-fxpractice.oanda.com/v3\""
+        }
+    }
+    
+    buildFeatures {
+        buildConfig true
+    }
+}
+
+dependencies {
+    implementation 'androidx.multidex:multidex:2.0.1'
+}

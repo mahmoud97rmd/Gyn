@@ -1,0 +1,106 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 21 min SDK version: arm64-v8a",
+    "file_": "/root/.pub-cache/hosted/pub.dev/jni-1.0.0/src/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "rebuilding JSON /root/.pub-cache/hosted/pub.dev/jni-1.0.0/android/.cxx/RelWithDebInfo/k262d14i/arm64-v8a/android_gradle_build.json due to:",
+    "file_": "/root/.pub-cache/hosted/pub.dev/jni-1.0.0/src/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "- no fingerprint file, will remove stale configuration folder",
+    "file_": "/root/.pub-cache/hosted/pub.dev/jni-1.0.0/src/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "removing stale contents from \u0027/root/.pub-cache/hosted/pub.dev/jni-1.0.0/android/.cxx/RelWithDebInfo/k262d14i/arm64-v8a\u0027",
+    "file_": "/root/.pub-cache/hosted/pub.dev/jni-1.0.0/src/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "created folder \u0027/root/.pub-cache/hosted/pub.dev/jni-1.0.0/android/.cxx/RelWithDebInfo/k262d14i/arm64-v8a\u0027",
+    "file_": "/root/.pub-cache/hosted/pub.dev/jni-1.0.0/src/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "executing cmake /root/android-sdk/cmake/3.22.1/bin/cmake \\\n  -H/root/.pub-cache/hosted/pub.dev/jni-1.0.0/src \\\n  -DCMAKE_SYSTEM_NAME\u003dAndroid \\\n  -DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON \\\n  -DCMAKE_SYSTEM_VERSION\u003d21 \\\n  -DANDROID_PLATFORM\u003dandroid-21 \\\n  -DANDROID_ABI\u003darm64-v8a \\\n  -DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a \\\n  -DANDROID_NDK\u003d/root/android-sdk/ndk/28.2.13676358 \\\n  -DCMAKE_ANDROID_NDK\u003d/root/android-sdk/ndk/28.2.13676358 \\\n  -DCMAKE_TOOLCHAIN_FILE\u003d/root/android-sdk/ndk/28.2.13676358/build/cmake/android.toolchain.cmake \\\n  -DCMAKE_MAKE_PROGRAM\u003d/root/android-sdk/cmake/3.22.1/bin/ninja \\\n  -DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/root/gyn/mt5_clone/build/jni/intermediates/cxx/RelWithDebInfo/k262d14i/obj/arm64-v8a \\\n  -DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/root/gyn/mt5_clone/build/jni/intermediates/cxx/RelWithDebInfo/k262d14i/obj/arm64-v8a \\\n  -DCMAKE_BUILD_TYPE\u003dRelWithDebInfo \\\n  -B/root/.pub-cache/hosted/pub.dev/jni-1.0.0/android/.cxx/RelWithDebInfo/k262d14i/arm64-v8a \\\n  -GNinja\n",
+    "file_": "/root/.pub-cache/hosted/pub.dev/jni-1.0.0/src/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "/root/android-sdk/cmake/3.22.1/bin/cmake \\\n  -H/root/.pub-cache/hosted/pub.dev/jni-1.0.0/src \\\n  -DCMAKE_SYSTEM_NAME\u003dAndroid \\\n  -DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON \\\n  -DCMAKE_SYSTEM_VERSION\u003d21 \\\n  -DANDROID_PLATFORM\u003dandroid-21 \\\n  -DANDROID_ABI\u003darm64-v8a \\\n  -DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a \\\n  -DANDROID_NDK\u003d/root/android-sdk/ndk/28.2.13676358 \\\n  -DCMAKE_ANDROID_NDK\u003d/root/android-sdk/ndk/28.2.13676358 \\\n  -DCMAKE_TOOLCHAIN_FILE\u003d/root/android-sdk/ndk/28.2.13676358/build/cmake/android.toolchain.cmake \\\n  -DCMAKE_MAKE_PROGRAM\u003d/root/android-sdk/cmake/3.22.1/bin/ninja \\\n  -DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/root/gyn/mt5_clone/build/jni/intermediates/cxx/RelWithDebInfo/k262d14i/obj/arm64-v8a \\\n  -DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/root/gyn/mt5_clone/build/jni/intermediates/cxx/RelWithDebInfo/k262d14i/obj/arm64-v8a \\\n  -DCMAKE_BUILD_TYPE\u003dRelWithDebInfo \\\n  -B/root/.pub-cache/hosted/pub.dev/jni-1.0.0/android/.cxx/RelWithDebInfo/k262d14i/arm64-v8a \\\n  -GNinja\n",
+    "file_": "/root/.pub-cache/hosted/pub.dev/jni-1.0.0/src/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed with problem. Exception: com.android.ide.common.process.ProcessException: -- The C compiler identification is unknown\n-- Configuring incomplete, errors occurred!\n\nC++ build system [configure] failed while executing:\n    /root/android-sdk/cmake/3.22.1/bin/cmake \\\n      -H/root/.pub-cache/hosted/pub.dev/jni-1.0.0/src \\\n      -DCMAKE_SYSTEM_NAME\u003dAndroid \\\n      -DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON \\\n      -DCMAKE_SYSTEM_VERSION\u003d21 \\\n      -DANDROID_PLATFORM\u003dandroid-21 \\\n      -DANDROID_ABI\u003darm64-v8a \\\n      -DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a \\\n      -DANDROID_NDK\u003d/root/android-sdk/ndk/28.2.13676358 \\\n      -DCMAKE_ANDROID_NDK\u003d/root/android-sdk/ndk/28.2.13676358 \\\n      -DCMAKE_TOOLCHAIN_FILE\u003d/root/android-sdk/ndk/28.2.13676358/build/cmake/android.toolchain.cmake \\\n      -DCMAKE_MAKE_PROGRAM\u003d/root/android-sdk/cmake/3.22.1/bin/ninja \\\n      -DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/root/gyn/mt5_clone/build/jni/intermediates/cxx/RelWithDebInfo/k262d14i/obj/arm64-v8a \\\n      -DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/root/gyn/mt5_clone/build/jni/intermediates/cxx/RelWithDebInfo/k262d14i/obj/arm64-v8a \\\n      -DCMAKE_BUILD_TYPE\u003dRelWithDebInfo \\\n      -B/root/.pub-cache/hosted/pub.dev/jni-1.0.0/android/.cxx/RelWithDebInfo/k262d14i/arm64-v8a \\\n      -GNinja\n  from /root/.pub-cache/hosted/pub.dev/jni-1.0.0/android\nCMake Error at CMakeLists.txt:8 (project):\n  The CMAKE_C_COMPILER:\n\n    /root/android-sdk/ndk/28.2.13676358/toolchains/llvm/prebuilt/bin/clang\n\n  is not a full path to an existing compiler tool.\n\n  Tell CMake where to find the compiler by setting either the environment\n  variable \"CC\" or the CMake cache entry CMAKE_C_COMPILER to the full path to\n  the compiler, or to the compiler name if it is in the PATH.",
+    "file_": "/root/.pub-cache/hosted/pub.dev/jni-1.0.0/src/CMakeLists.txt",
+    "tag_": "release|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  }
+]
