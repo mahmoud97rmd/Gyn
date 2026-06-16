@@ -59,11 +59,7 @@ android {
             pip {
                 install "numpy"
                 install "pandas"
-                install "pandas-ta"
                 install "requests"
-                install "pydantic"
-                install "loguru"
-                install "orjson"
                 install "scipy"
                 install "python-dateutil"
                 install "pytz"
